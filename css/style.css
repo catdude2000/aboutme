@@ -1,0 +1,26 @@
+/* * {
+    outline: dotted;
+} */
+
+body {
+    
+    margin: 0 auto;
+    width: 1000px;
+    background-color: rgb(188, 207, 170);
+}   
+main {
+
+    background-color: darkblue;
+    color: oldlace;
+}
+header {
+    margin-bottom: 10 px;
+}
+h1 {
+    text-align: center;
+    background-color: yellow;
+    color: teal;
+    font-size: 90px;
+}
+section p { color: rgb(240, 235, 229);
+}

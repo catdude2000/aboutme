@@ -10,17 +10,17 @@ console.log('user input', userName);
 alert('hello ', + userName);
 
 // validate
-let lowerCaseName = userName.toLowerCase();
-console.log(lowerCaseName);
+// let lowerCaseName = userName.toLowerCase();
+// console.log(lowerCaseName);
 
 // validate more user input
-if(lowerCaseName === 'craig'); 
-alert('Welcome back ' + lowerCaseName);
+// if(lowerCaseName === 'craig'); 
+// alert('Welcome back ' + lowerCaseName);
 
 // Array
-let emptyArray = [];
-console.log(emptyArray);
+// let emptyArray = [];
+// console.log(emptyArray);
 
-let quizAnswers = ['b','c','c','a','e'];
+// let quizAnswers = ['b','c','c','a','e'];
 
-console.log('this is the first index position zero',quizAnswers[0]);
+// console.log('this is the first index position zero',quizAnswers[0]);
