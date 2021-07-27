@@ -2,14 +2,14 @@
 Site about me
 # LAB - 02
 
-## Project Name
+## All About Mike
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+This project was to build a website about myself, with a short quiz prompting from the site.
 
-### Author: Student/Group Name
+### Author: Michael Pace
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [Github Class 201 Repository](https://github.com/DeltaVCode/cedarrapids-code-201d10)
 * Any Links you used as reference
 
 ### Reflections and Comments
