@@ -1,16 +1,22 @@
 'use strict';
 console.log('app.js file is connected');
 
-// prompt user for info
+
+let username = prompt("Hi! You've reached Mike's page. What's your name?") 
+    alert('Welcome ' + username + '!')
+
 alert('Please answer yes or no.')
+
 let answer1 = prompt('Was I born in 1999?').toLowerCase();
 console.log('user input', answer1);
+
 if (answer1 === "yes") {
     alert('Nope.');
 }
 if (answer1 === "no") {
     alert('Whoop there it is!')
 }
+
 let answer2 = prompt('Did I work as a valet?').toLocaleLowerCase();
 console.log('user input', answer2);
 
@@ -50,19 +56,9 @@ if (answer5 === "yes".toLowerCase) {
 if (answer5 === "no") {
     alert("Survey says: You win!")
 }
+    alert('Nice job ' + username + '!')
 
 
-
-// greet the user
-alert('hello ', + userName);
-
-// validate
-// let lowerCaseName = userName.toLowerCase();
-// console.log(lowerCaseName);
-
-// validate more user input
-// if(lowerCaseName === 'craig'); 
-// alert('Welcome back ' + lowerCaseName);
 
 // Array
 // let emptyArray = [];
