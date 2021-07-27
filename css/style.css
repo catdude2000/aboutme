@@ -9,7 +9,7 @@ body {
     background-color: rgb(188, 207, 170);
 }   
 main {
-
+    text-align: center;
     background-color: darkblue;
     color: oldlace;
 }
@@ -23,4 +23,10 @@ h1 {
     font-size: 90px;
 }
 section p { color: rgb(240, 235, 229);
+}
+footer {
+    background-color: rgb(241, 137, 99);
+    color: rgb(95, 39, 67);
+    font-size: 50 px;
+    text-align: left;
 }
