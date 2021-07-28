@@ -56,21 +56,57 @@ console.log('app.js file is connected');
 // if (answer5 === "no") {
 //     alert("Survey says: You win!");
 // }
-let answer6 = prompt('Guess which number between 1 and 10 is in my head.');
-console.log('user input', answer6);
+// let answer6 = prompt('Guess which number between 1 and 10 is in my head.');
+// console.log('user input', answer6);
 
-let tries = 0;
-    if(answer6 !== '5' && tries < 4) {
-        tries = tries + 1;
-        answer6 = prompt('Try again!');
-    }
-
-
-
-
-        console.log('triess', tries);
+// let tries = 0;
+//     while(answer6 < '5' && tries < 3) {
+//         tries = tries + 1;
+//         answer6 = prompt('Too low!');
+//     } 
+//     while(answer6 > '5' && tries < 3) {
+//         tries = tries + 1;
+//         answer6 = prompt('Too high!');
+//     }
+//     while(answer6 < '5' && tries < 3) {
+//         tries = tries + 1;
+//         answer6 = prompt('Too low!');
+//     }
+//     while(answer6 > '5' && tries < 3) {
+//         tries = tries + 1;
+//         answer6 = prompt('Too high!');
+//     }
+//     while(answer6 < '5' && tries < 3) {
+//         tries = tries + 1;
+//         answer6 = prompt('Too low!');
+//     }
+//     while(answer6 > '5' && tries < 3) {
+//         tries = tries + 1;
+//         answer6 = prompt('Too high!');
+//     }
+//     while(answer6 = '5' && tries <= 2) {
+//         alert('Nice guess!');
+//         break;
+//     }
+//     while(tries === 3) {
+//         alert("The answer was 5.");
+//         break;
+//     }
+//         console.log('triess', tries);
     
-    else alert('Nice one!');
+let answer7 = prompt('What do you think my favorite video game franchise is?').toLowerCase();
+console.log('user input', answer7);
+
+let tries2 = 0;
+    if(answer7 !== 'final fantasy' && tries < 6) {
+        tries2 = tries2 + 1;
+        answer7 = prompt("That's a good one but no.");
+    } while (answer7 === 'final fantasy') {
+        alert('Yep! #7 is the best!');
+        break
+    }
+    console.log('tries2', tries2);
+
     
     // while (answer6 = 5) {
     // alert('Nice one!')
