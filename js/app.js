@@ -60,11 +60,17 @@ let answer6 = prompt('Guess which number between 1 and 10 is in my head.');
 console.log('user input', answer6);
 
 let tries = 0;
-    console.log('triess', tries);
-    if(answer6 < 5 && answer6 > 5 && tries < 4) {
-        tries += 1;
-        prompt('Try again!');
+    if(answer6 !== '5' && tries < 4) {
+        tries = tries + 1;
+        answer6 = prompt('Try again!');
     }
+
+
+
+
+        console.log('triess', tries);
+    
+    else alert('Nice one!');
     
     // while (answer6 = 5) {
     // alert('Nice one!')
