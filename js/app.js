@@ -2,61 +2,81 @@
 console.log('app.js file is connected');
 
 
-let username = prompt("Hi! You've reached Mike's page. What's your name?"); 
-    alert('Welcome ' + username + '!');
+// let username = prompt("Hi! You've reached Mike's page. What's your name?"); 
+//     alert('Welcome ' + username + '!');
 
-alert('Please answer yes or no.');
+// alert('Please answer yes or no.');
 
-let answer1 = prompt('Was I born in 1999?').toLowerCase();
-console.log('user input', answer1);
+// let answer1 = prompt('Was I born in 1999?').toLowerCase();
+// console.log('user input', answer1);
 
-if (answer1 === "yes") {
-    alert('Nope.');
-}
-if (answer1 === "no") {
-    alert('Whoop there it is!');
-}
+// if (answer1 === "yes") {
+//     alert('Nope.');
+// }
+// if (answer1 === "no") {
+//     alert('Whoop there it is!');
+// }
 
-let answer2 = prompt('Did I work as a valet?').toLocaleLowerCase();
-console.log('user input', answer2);
+// let answer2 = prompt('Did I work as a valet?').toLocaleLowerCase();
+// console.log('user input', answer2);
 
-if (answer2 === "yes") {
-    alert('Whoop yes I did!');
-}
-if (answer2 === "no") {
-    alert("It's a no from me dawg.");
-}
+// if (answer2 === "yes") {
+//     alert('Whoop yes I did!');
+// }
+// if (answer2 === "no") {
+//     alert("It's a no from me dawg.");
+// }
 
-let answer3 = prompt('Did I go to school in Washington, Iowa?').toLowerCase();
-console.log('user input', answer3);
+// let answer3 = prompt('Did I go to school in Washington, Iowa?').toLowerCase();
+// console.log('user input', answer3);
 
-if (answer3 === "yes") {
-    alert('*sad trombone noises');
-}
-if (answer3 === "no") {
-    alert("Correct! I went to Washington High in Cedar Rapids.");
-}
+// if (answer3 === "yes") {
+//     alert('*sad trombone noises');
+// }
+// if (answer3 === "no") {
+//     alert("Correct! I went to Washington High in Cedar Rapids.");
+// }
 
-let answer4 = prompt('Did I graduate from Kirkwood?').toLowerCase();
-console.log('user input', answer4);
+// let answer4 = prompt('Did I graduate from Kirkwood?').toLowerCase();
+// console.log('user input', answer4);
 
-if (answer4 === "yes") {
-    alert('Not quite!');
-}
-if (answer4 === "no") {
-    alert("Jeez, get off my back about it... (=");
-}
+// if (answer4 === "yes") {
+//     alert('Not quite!');
+// }
+// if (answer4 === "no") {
+//     alert("Jeez, get off my back about it... (=");
+// }
 
-let answer5 = prompt('Did I run long distance in Track?').toLowerCase();
-console.log('user input', answer5);
+// let answer5 = prompt('Did I run long distance in Track?').toLowerCase();
+// console.log('user input', answer5);
 
-if (answer5 === "yes".toLowerCase) {
-    alert('Nope, no no no no, nope.');
-}
-if (answer5 === "no") {
-    alert("Survey says: You win!");
-}
-    alert('Nice job ' + username + '!');
+// if (answer5 === "yes".toLowerCase) {
+//     alert('Nope, no no no no, nope.');
+// }
+// if (answer5 === "no") {
+//     alert("Survey says: You win!");
+// }
+let answer6 = prompt('Guess which number between 1 and 10 is in my head.');
+console.log('user input', answer6);
+
+let tries = 0;
+    console.log('triess', tries);
+    if(answer6 < 5 && answer6 > 5 && tries < 4) {
+        tries += 1;
+        prompt('Try again!');
+    }
+    
+    // while (answer6 = 5) {
+    // alert('Nice one!')
+    // break
+    // }
+    // alert('Nice job ' + username + '!');
+
+
+    
+
+// }
+
 
 
 
