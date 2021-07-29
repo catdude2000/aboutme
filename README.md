@@ -7,6 +7,8 @@ Site about me
 This project was to build a website about myself, with a short quiz prompting from the site.
 
 ### Author: Michael Pace
+Driver: Misti Dinzy
+Navigator: Michael Pace
 
 ### Links and Resources
 * [Github Class 201 Repository](https://github.com/DeltaVCode/cedarrapids-code-201d10)
