@@ -78,85 +78,91 @@ function questionFour(){
 questionFour();
 
 function questionFive(){
+    let answer5 = prompt('Did I run long distance in Track?').toLowerCase();
+    console.log('user input', answer5);
 
-    
-}
-
-
-
-
-let answer5 = prompt('Did I run long distance in Track?').toLowerCase();
-console.log('user input', answer5);
-
-if (answer5 === "yes".toLowerCase) {
-    alert('Nope, no no no no, nope.');
-}
-if (answer5 === "no") {
-    alert("Survey says: You win!");
-    points += 1;
-}
-let answer6 = prompt('Guess which number between 1 and 10 is in my head.');
-console.log('user input', answer6);
-
-let tries = 0;
-    while(answer6 < '5' && tries < 3) {
-        tries = tries + 1;
-        answer6 = prompt('Too low!');
-    } 
-    while(answer6 > '5' && tries < 3) {
-        tries = tries + 1;
-        answer6 = prompt('Too high!');
+    if (answer5 === "yes".toLowerCase) {
+        alert('Nope, no no no no, nope.');
+        console.log(username + 'still has ' + points + ' points');
     }
-    while(answer6 < '5' && tries < 3) {
-        tries = tries + 1;
-        answer6 = prompt('Too low!');
-    }
-    while(answer6 > '5' && tries < 3) {
-        tries = tries + 1;
-        answer6 = prompt('Too high!');
-    }
-    while(answer6 < '5' && tries < 3) {
-        tries = tries + 1;
-        answer6 = prompt('Too low!');
-    }
-    while(answer6 > '5' && tries < 3) {
-        tries = tries + 1;
-        answer6 = prompt('Too high!');
-    }
-    while(answer6 = '5' && tries <= 2) {
-        alert('Nice guess!');
+    if (answer5 === "no") {
+        alert("Survey says: You win!");
         points += 1;
-        break;
+        console.log(username + ' now has ' + points + ' points');
     }
-    while(tries === 3) {
-        alert("The answer was 5.");
-        break;
-    }
-        console.log('triess', tries);
-    
-let answer7 = prompt('What is one of my three favorite video game franchises?').toLowerCase();
-console.log('user input', answer7);
+}
 
-let tries2 = 0;
-let answers ='final fantasy' || 'halo' || 'legend of zelda';
-    while(answer7 !== answers && tries2 < 5) {
-        tries2 = tries2 + 1;
-        answer7 = prompt("That's a good one but no.");
+questionFive();
+
+function questionSix(){
+    let answer6 = prompt('Guess which number between 1 and 10 is in my head.');
+    console.log('user input', answer6);
+
+    let tries = 0;
+        while(answer6 < '5' && tries < 3) {
+            tries = tries + 1;
+            answer6 = prompt('Too low!');
+        } 
+        while(answer6 > '5' && tries < 3) {
+            tries = tries + 1;
+            answer6 = prompt('Too high!');
+        }
+        while(answer6 < '5' && tries < 3) {
+            tries = tries + 1;
+            answer6 = prompt('Too low!');
+        }
+        while(answer6 > '5' && tries < 3) {
+            tries = tries + 1;
+            answer6 = prompt('Too high!');
+        }
+        while(answer6 < '5' && tries < 3) {
+            tries = tries + 1;
+            answer6 = prompt('Too low!');
+        }
+        while(answer6 > '5' && tries < 3) {
+            tries = tries + 1;
+            answer6 = prompt('Too high!');
+        }
+        while(answer6 = '5' && tries <= 2) {
+            alert('Nice guess!');
+            points += 1;
+            break;
+        }
+        while(tries === 3) {
+            alert("The answer was 5.");
+            break;
+        }
+            console.log('tries', tries);
 }
-   while (answer7 === answers) {
-        alert('You knew one!');
-        points += 1;
-        break;
-}
-   while (tries2 === 5) {
-        alert("Your choices were Halo, Final Fantasy, or Legend of Zelda");
-        break;
+   
+questionSix();
+
+function questionSev(){
+    let answer7 = prompt('What is one of my three favorite video game franchises?').toLowerCase();
+    console.log('user input', answer7);
+
+    let tries2 = 0;
+    let answers ='final fantasy' || 'halo' || 'legend of zelda';
+        while(answer7 !== answers && tries2 < 5) {
+            tries2 = tries2 + 1;
+            answer7 = prompt("That's a good one but no.");
     }
-    console.log('tries2', tries2);
-    alert('You scored ' + points + ' out of 7')
+    while (answer7 === answers) {
+            alert('You knew one!');
+            points += 1;
+            break;
+    }
+    while (tries2 === 5) {
+            alert("Your choices were Halo, Final Fantasy, or Legend of Zelda");
+            break;
+        }
+        console.log('tries2', tries2);
+        alert('You scored ' + points + ' out of 7')
+}
+    
+questionSev();
 
     alert('Nice effort ' + username + '!');
-
 
 
 // Array
