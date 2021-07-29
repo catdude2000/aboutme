@@ -1,14 +1,15 @@
 'use strict';
 console.log('app.js file is connected');
 
-let points = 0
+let points = 0;
 
 let username = prompt("Hi! You've reached Mike's page. What's your name?"); 
-    alert('Welcome ' + username + '!');
+    alert,('Welcome ' + username + '!');
 
 alert('Please answer yes or no.');
 
-let answer1 = prompt('Was I born in 1999?').toLowerCase();
+function questionOne(){
+    let answer1 = prompt('Was I born in 1999?').toLowerCase();
 console.log('user input', answer1);
 
 if (answer1 === "yes") {
@@ -18,6 +19,10 @@ if (answer1 === "no") {
     alert('Whoop there it is!');
     points += 1;
 }
+}
+
+questionOne();
+
 
 let answer2 = prompt('Did I work as a valet?').toLocaleLowerCase();
 console.log('user input', answer2);
