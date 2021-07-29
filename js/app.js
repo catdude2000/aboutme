@@ -10,7 +10,7 @@ alert('Please answer yes or no.');
 
 function questionOne(){
     let answer1 = prompt('Was I born in 1999?').toLowerCase();
-    console.log('user input', answer1);
+    console.log('1. user input', answer1);
 
     if (answer1 === "yes") {
         alert('Nope.');
@@ -27,7 +27,7 @@ questionOne();
 
 function questionTwo(){
     let answer2 = prompt('Did I work as a valet?').toLocaleLowerCase();
-    console.log('user input', answer2);
+    console.log('2. user input', answer2);
 
     if (answer2 === "yes") {
         alert('Whoop yes I did!');
@@ -44,7 +44,7 @@ questionTwo();
 
 function questionTres(){
     let answer3 = prompt('Did I go to school in Washington, Iowa?').toLowerCase();
-    console.log('user input', answer3);
+    console.log('3. user input', answer3);
 
     if (answer3 === "yes") {
         alert('*sad trombone noises');
@@ -62,7 +62,7 @@ questionTres();
 
 function questionFour(){
     let answer4 = prompt('Did I graduate from Kirkwood?').toLowerCase();
-    console.log('user input', answer4);
+    console.log('4. user input', answer4);
 
     if (answer4 === "yes") {
         alert('Not quite!');
@@ -79,11 +79,11 @@ questionFour();
 
 function questionFive(){
     let answer5 = prompt('Did I run long distance in Track?').toLowerCase();
-    console.log('user input', answer5);
+    console.log('5. user input', answer5);
 
-    if (answer5 === "yes".toLowerCase) {
+    if (answer5 === "yes"){
         alert('Nope, no no no no, nope.');
-        console.log(username + 'still has ' + points + ' points');
+        console.log(username + ' still has ' + points + ' points');
     }
     if (answer5 === "no") {
         alert("Survey says: You win!");
@@ -96,7 +96,7 @@ questionFive();
 
 function questionSix(){
     let answer6 = prompt('Guess which number between 1 and 10 is in my head.');
-    console.log('user input', answer6);
+    console.log('6. user input', answer6);
 
     let tries = 0;
         while(answer6 < '5' && tries < 3) {
@@ -126,10 +126,13 @@ function questionSix(){
         while(answer6 = '5' && tries <= 2) {
             alert('Nice guess!');
             points += 1;
+            console.log(username + ' now has ' + points + ' points');
+
             break;
         }
         while(tries === 3) {
             alert("The answer was 5.");
+            console.log(username + ' still has ' + points + ' points');
             break;
         }
             console.log('tries', tries);
@@ -157,12 +160,13 @@ function questionSev(){
             break;
         }
         console.log('tries2', tries2);
-        alert('You scored ' + points + ' out of 7')
 }
     
 questionSev();
 
-    alert('Nice effort ' + username + '!');
+alert('You scored ' + points + ' out of 7');
+    
+alert('Nice effort ' + username + '!');
 
 
 // Array
