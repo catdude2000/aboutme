@@ -36,3 +36,8 @@ footer {
 div {   background-color: black;
         color: black;
 }
+.parent{
+    position: relative;
+    top: -10;
+    background-color: blueviolet;
+}
