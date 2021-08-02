@@ -1,37 +1,38 @@
-/* * {
-    outline: dotted;
-} */
-
 body {
     
     margin: 0 auto;
-    width: 1000px;
+    width: fit-content;
     background-color: rgb(188, 207, 170);
 }   
 main {
+    font-size: 50px;
     text-align: center;
-    background-color: darkblue;
-    color: oldlace;
+    background-color: rgb(208, 208, 221);
+    color: rgb(104, 80, 37);
 }
 header {
     margin-bottom: 10 px;
 }
 h1 {
     text-align: center;
-    background-color: yellow;
-    color: teal;
+    background-color: rgb(109, 109, 53);
+    color: azure;
     font-size: 90px;
 }
 section p { color: rgb(240, 235, 229);
 }
-h3 {font-size: 30px;}
-h4 {font-size: 30px;}
-h5 {font-size: 30px;}
+h3 {font-size: 55px;}
+h4 {font-size: 55px;}
+h5 {font-size: 55px;}
+ul {font-size: 35px;}
+ol {font-size: 35px;
+    text-align: justify;
+}
 footer {
-    background-color: rgb(241, 137, 99);
-    color: rgb(95, 39, 67);
-    font-size: 50 px;
-    text-align: left;
+    background-color: rgb(26, 39, 26);
+    color:chocolate;
+    font-size: 70 px;
+    text-align: center;
 }
 div {   background-color: black;
         color: black;
@@ -39,5 +40,4 @@ div {   background-color: black;
 .parent{
     position: relative;
     top: -10;
-    background-color: blueviolet;
 }

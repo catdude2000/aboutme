@@ -167,12 +167,3 @@ questionSev();
 alert('You scored ' + points + ' out of 7');
     
 alert('Nice effort ' + username + '!');
-
-
-// Array
-// let emptyArray = [];
-// console.log(emptyArray);
-
-// let quizAnswers = ['b','c','c','a','e'];
-
-// console.log('this is the first index position zero',quizAnswers[0]);
